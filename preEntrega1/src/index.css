@@ -10,7 +10,8 @@ body {
     font-optical-sizing: auto;
     font-weight: weight;
     font-size: 1rem;
-    background-image: url(../public/image/fondo.jpeg);
+    background: -webkit-linear-gradient(to bottom, #f7f3c6, #8b8962);
+    background: linear-gradient(to bottom, #f7f3c6, #8b8962);
     font-weight: weight;
     font-style: normal;
     background-repeat: no-repeat;

@@ -1,0 +1,86 @@
+.ContainerCadaCard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 20px 20px;
+    grid-auto-flow: row;
+    margin: 100px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px #000000 solid;
+    grid-template-areas:
+        "imagen descripcion";
+}
+
+.imagen {
+    grid-area: imagen;
+    display: grid;
+}
+
+.ImagenDeCadaCard {
+    width: 400px;
+    height: 450px;
+    justify-self: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.descripcion {
+    grid-area: descripcion;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo {
+    font-family: "Dosis", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.precioCarrito {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    color: #000000;
+}
+
+.BotonComprar {
+    border: 1px #000000 solid;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 0px 5px;
+    font-size: 1.2rem;
+}
+
+.divCuotas {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    color: #000000;
+    margin: 20px 10px;
+}
+
+.cuotas {
+    font-family: "Dosis", sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    width: 75%;
+    color: #000000;
+}
+
+.contadorCarrito {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contador {
+    border: 1px black solid;
+    border-radius: 50px;
+    height: 45px;
+    align-self: center;
+}

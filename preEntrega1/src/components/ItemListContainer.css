@@ -1,5 +1,47 @@
-h1 {
+.Descripcion {
     font-size: 1.5rem;
     width: 80%;
     margin: 15px 115px;
+}
+
+.containerCards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        ". . . .";
+}
+
+
+.tarjeta {
+    width: 250px;
+    height: 370px;
+    margin-left: 42px;
+    margin-top: 50px;
+    background-color: #ffffff;
+    border: 1px #000000 solid;
+    display: flex;
+
+}
+
+.fotoCard {
+    width: 250px;
+    height: 270px;
+    align-self: center;
+    border-radius: 2px;
+    padding: 20px;
+
+}
+
+.tituloCard {
+    font-size: 1.1rem;
+    font-family: "Dosis", sans-serif;
+}
+
+.precioCarrito {
+    display: flex;
 }

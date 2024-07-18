@@ -1,14 +1,22 @@
-import { useState } from 'react'
-
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import NavBar from './components/NavBar'
 import ItemListContainer from './components/ItemListContainer'
+import ItemDetailContainer from './components/ItemDetailContainer'
+import Descripcion from './components/Descripcion'
 
 
 function App() {
   return (
     <>
-      <NavBar />
-      <ItemListContainer texto={"Nuestra tienda de ropa vintage ofrece una selección exquisita de prendas y accesorios únicos, cuidadosamente seleccionados de diferentes décadas para satisfacer a los amantes de la moda clásica y singular."} />
+      <BrowserRouter>
+        <NavBar />
+
+        <Routes>
+          <Route path={"/"} element={<ItemListContainer />} />
+          <Route path={"/category/:id"} element={<ItemListContainer />} />
+          <Route path={"/item/:id"} element={<ItemDetailContainer />} />
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
