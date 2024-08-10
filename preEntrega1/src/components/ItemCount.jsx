@@ -1,8 +1,10 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
+import { Link } from "react-router-dom";
 
-const ItemCount = ({ stock }) => {
+const ItemCount = ({ stock, onAdd }) => {
     const [contador, setContador] = useState(1);
     const [itemStock, setItemStock] = useState(stock);
+    const [visible, setVisible] = useState(true)
 
     const incrementar = () => {
         if (contador < itemStock) {
@@ -16,28 +18,36 @@ const ItemCount = ({ stock }) => {
         }
     }
 
-    const onAdd = () => {
+    const addToCart = () => {
         if (contador <= itemStock) {
-            setItemStock(itemStock - contador)
-            setContador(1)
+            setItemStock(itemStock - contador);
+            onAdd(contador);
+            setContador(1);
+            setVisible(false);
+
         }
     }
 
+    useEffect(() => {
+        setItemStock(stock)
+    }, [stock])
 
     return (
-        <div className="contadorCarrito">
-            <div className="btn-group contador" role="group" aria-label="Basic outlined example">
-                <button type="button" className="btn " onClick={decrementar}>-</button>
-                <button type="button" className="btn " onClick={onAdd}>{contador}</button>
-                <button type="button" className="btn " onClick={incrementar}>+</button>
-            </div>
-            <div>
-                <a href="#" className="btn">
-                    <h4 className="BotonComprar">Comprar</h4>
-                </a>
-            </div>
-        </div>
+        <>  {visible ?
+            <div className="contadorCarrito">
+                <div className="btn-group contador" role="group" aria-label="Basic outlined example">
+                    <h3 className="ContadorComprar" onClick={decrementar}>-</h3>
+                    <h3 className="ContadorComprar">{contador}</h3>
+                    <h3 className="ContadorComprar" onClick={incrementar}>+</h3>
+                </div>
+                <div>
+                    <a href="#" className="btn">
+                        <h4 className="BotonComprar" onClick={addToCart}>Comprar</h4>
+                    </a>
+                </div>
+            </div> : <Link to={"/cart"} className="BotonComprar text-dark">Finalizar mi compra</Link>}
 
+        </>
     )
 }
 

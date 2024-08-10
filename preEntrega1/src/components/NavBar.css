@@ -5,16 +5,16 @@
 }
 
 
-.container {
+.containerNavbar {
     display: grid;
     background-color: #ffffff;
     grid-template-columns: 1fr 3fr;
     grid-auto-columns: 1fr;
     grid-auto-rows: 1fr;
     grid-auto-flow: row;
-    margin-top: 20px;
+    margin: 20px;
     border-radius: 10px;
-    border: 1px #000000 solid;
+
 }
 
 .image {

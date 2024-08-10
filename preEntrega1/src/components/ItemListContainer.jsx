@@ -1,34 +1,36 @@
 import { useEffect, useState } from 'react';
 import './ItemListContainer.css';
-import arrayProductos from "../assets/json/ropa.json";
 import ItemList from './ItemList';
+import arrayProductos from "../assets/json/ropa.json";
 import { useParams } from 'react-router-dom';
-import Descripcion from './Descripcion';
+import { collection, getDocs, getFirestore, query, where } from "firebase/firestore";
+import Loading from './Loading';
 
 const ItemListContainer = () => {
+    const [loading, setLoading] = useState(true)
     const [items, setItems] = useState([]);
     const { id } = useParams();
 
+
     useEffect(() => {
-
-        const filteredItems = id ? arrayProductos.filter(item => item.category === id) : arrayProductos;
-
-        const promesa = new Promise(resolve => {
-            setTimeout(() => {
-                resolve(filteredItems);
-            }, 2000);
-        });
-
-        promesa.then(response => {
-            setItems(response);
+        const db = getFirestore();
+        const itemsCoollection = collection(db, "items");
+        const q = id ? query(itemsCoollection, where("category", "==", id)) : itemsCoollection;
+        getDocs(q).then(documento => {
+            if (documento.docs.length > 0) {
+                setItems(documento.docs.map((doc) => ({ id: doc.id, ...doc.data() })));
+                setLoading(false)
+            } else {
+                console.error("no existe la coleccion");
+            }
         });
     }, [id]);
 
+
     return (
         <>
-            <Descripcion texto={"Nuestra tienda de ropa vintage ofrece una selección exquisita de prendas y accesorios únicos, cuidadosamente seleccionados de diferentes décadas para satisfacer a los amantes de la moda clásica y singular."} />
             <div className="containerCards">
-                <ItemList items={items} />
+                {loading ? <Loading /> : <ItemList items={items} />}
             </div>
         </>
 

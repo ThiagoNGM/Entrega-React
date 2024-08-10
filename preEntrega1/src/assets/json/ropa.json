@@ -1,7 +1,7 @@
 
 [
     {
-        "id":1,
+
         "category":"Nuevo", 
         "title": "Vestido floral años 50",
         "description": "Vestido elegante con estampado floral vintage de los años 50.",
@@ -11,7 +11,7 @@
         "DescripcionDetallada": "Este vestido floral de los años 50 es perfecto para ocasiones especiales. Su diseño vintage y elegante te hará destacar. Fabricado con materiales de alta calidad para asegurar comodidad y durabilidad."
     },
     {
-        "id":2,
+
         "category":"MasBuscado", 
         "title": "Chaqueta de cuero retro",
         "description": "Chaqueta de cuero genuino estilo retro con diseño clásico.",
@@ -21,7 +21,7 @@
         "DescripcionDetallada": "Chaqueta de cuero auténtico con un diseño clásico retro. Perfecta para darle un toque de estilo a cualquier atuendo. Ideal para el uso diario y eventos especiales."
     },
     {
-        "id":3,
+
         "category":"Rebajas" , 
         "title": "Falda plisada años 60",
         "description": "Falda plisada de cintura alta, muy popular en los años 60.",
@@ -31,7 +31,7 @@
         "DescripcionDetallada": "Esta falda plisada de los años 60 es ideal para crear un look retro y elegante. Su diseño de cintura alta realza la figura y ofrece un estilo sofisticado."
     },
     {
-        "id":4,
+
         "category":"Nuevo" , 
         "title": "Camisa de rayas vintage",
         "description": "Camisa de manga larga con rayas horizontales estilo vintage.",
@@ -41,7 +41,7 @@
         "DescripcionDetallada": "Camisa de rayas vintage con un diseño clásico y atemporal. Ideal para un look casual y elegante, perfecta para cualquier ocasión. Esta camisa está hecha de algodón 100%, lo que asegura una sensación suave y cómoda al tacto."
     },
     {
-        "id":5,
+
         "category":"Rebajas" , 
         "title": "Pantalones campana",
         "description": "Pantalones acampanados clásicos de los años 70.",
@@ -51,7 +51,7 @@
         "DescripcionDetallada": "Estos pantalones acampanados de los años 70 te transportarán a una época de moda icónica. Son perfectos para un look retro y desenfadado. Confeccionados con una mezcla de algodón y elastano, estos pantalones ofrecen una comodidad excepcional y una gran capacidad de movimiento."
     },
     {
-        "id":6,
+
         "category":"MasBuscado" , 
         "title": "Blusa de encaje retro",
         "description": "Blusa con detalles de encaje, inspirada en la moda retro.",
@@ -61,7 +61,7 @@
         "DescripcionDetallada": "Blusa retro con delicados detalles de encaje. Ideal para añadir un toque de elegancia y feminidad a cualquier conjunto. Esta blusa está confeccionada con una combinación de algodón y poliéster, lo que proporciona una sensación suave y cómoda al llevarla puesta."
     },
     {
-        "id":7,
+
         "category":"MasBuscado", 
         "title": "Gabardina vintage",
         "description": "Gabardina de lana, ideal para un look vintage y elegante.",
@@ -71,7 +71,7 @@
         "DescripcionDetallada": "Gabardina vintage de lana, perfecta para los días fríos. Su diseño clásico y elegante te mantendrá abrigado con estilo. Esta gabardina está hecha de lana de alta calidad, lo que asegura calidez y durabilidad."
     },
     {
-        "id":8,
+
         "category":"Nuevo", 
         "title": "Sombrero de ala ancha",
         "description": "Sombrero de ala ancha estilo vintage, perfecto para cualquier ocasión.",
@@ -81,7 +81,7 @@
         "DescripcionDetallada": "Sombrero de ala ancha vintage, ideal para protegerte del sol con estilo. Perfecto para complementar cualquier atuendo. Este sombrero está confeccionado con materiales de alta calidad, lo que garantiza su durabilidad y resistencia."
     },
     {
-        "id":9,
+
         "category":"Rebajas", 
         "title": "Suéter de punto años 80",
         "description": "Suéter de punto grueso con diseño ochentero.",
@@ -91,7 +91,7 @@
         "DescripcionDetallada": "Suéter de punto grueso inspirado en los años 80, ideal para un look retro y abrigado. Este suéter está confeccionado con una mezcla de lana y acrílico, lo que proporciona calidez y comodidad. El diseño incluye patrones geométricos y colores vibrantes, característicos de la moda ochentera."
     },
     {
-        "id":10,
+
         "category":"Rebajas", 
         "title": "Falda de mezclilla retro",
         "description": "Falda de mezclilla con estilo vintage, ideal para el día a día.",
@@ -101,7 +101,7 @@
         "DescripcionDetallada": "Falda de mezclilla retro, perfecta para un look casual y desenfadado. Esta falda está confeccionada con mezclilla de alta calidad, lo que asegura su durabilidad y resistencia. El diseño incluye detalles como costuras contrastantes y un corte ligeramente entallado que realza la figura."
     },
     {
-        "id":11,
+
         "category":"Nuevo", 
         "title": "Vestido polka dots años 60",
         "description": "Vestido con estampado de lunares, inspirado en los años 60.",
@@ -111,7 +111,7 @@
         "DescripcionDetallada": "Vestido de lunares inspirado en la moda de los años 60. Perfecto para un look retro y femenino. Este vestido está confeccionado con una mezcla de algodón y poliéster, lo que asegura comodidad y durabilidad. El diseño de lunares es clásico y atemporal, mientras que el corte entallado realza la figura de manera favorecedora."
     },
     {
-        "id":12,
+
         "category":"MasBuscado" , 
         "title": "Camisa hawaiana vintage",
         "description": "Camisa con estampado hawaiano, perfecta para el verano.",
@@ -121,7 +121,7 @@
         "DescripcionDetallada": "Camisa hawaiana vintage, ideal para el verano y los días cálidos. Esta camisa está confeccionada con una mezcla de algodón y rayón, lo que proporciona una sensación suave y ligera al llevarla. El estampado hawaiano es colorido y vibrante, perfecto para un look relajado y divertido. El corte es holgado, ofreciendo comodidad y facilidad de movimiento."
     },
     {
-        "id":13,
+
         "category":"Rebajas", 
         "title": "Jeans de corte alto retro",
         "description": "Jeans de corte alto, muy populares en la moda retro.",
@@ -131,7 +131,7 @@
         "DescripcionDetallada": "Jeans de corte alto con un estilo retro que nunca pasa de moda. Estos jeans están confeccionados con una mezcla de algodón y elastano, lo que asegura una gran comodidad y ajuste. El diseño de corte alto ayuda a definir la figura y a alargar visualmente las piernas. Disponibles en varios lavados y colores, estos jeans son versátiles y pueden combinarse con una variedad de tops, desde camisetas casuales hasta blusas elegantes."
     },
     {
-        "id":14,
+
         "category":"Nuevo" , 
         "title": "Bolso de mano vintage",
         "description": "Bolso de mano estilo vintage, ideal para un look clásico.",
@@ -141,7 +141,7 @@
         "DescripcionDetallada": "Bolso de mano vintage con un diseño clásico y elegante. Perfecto para complementar cualquier atuendo. Este bolso está confeccionado con materiales de alta calidad, lo que asegura su durabilidad y resistencia. El diseño incluye detalles como herrajes metálicos, costuras reforzadas y un forro interior suave. El tamaño del bolso es ideal para llevar lo esencial, como el teléfono, la cartera y las llaves, sin ser demasiado voluminoso."
     },
     {
-        "id":15,
+
         "category":"Rebajas", 
         "title": "Chaleco de mezclilla años 90",
         "description": "Chaleco de mezclilla con estilo noventero.",
@@ -151,7 +151,7 @@
         "DescripcionDetallada": "Chaleco de mezclilla inspirado en los años 90. Perfecto para un look casual y desenfadado. Este chaleco está confeccionado con mezclilla de alta calidad, lo que asegura su durabilidad y resistencia. El diseño incluye detalles como botones metálicos, bolsillos delanteros y costuras contrastantes. El corte es ligeramente entallado, ofreciendo un ajuste cómodo sin ser demasiado holgado."
     },
     {
-        "id":16,
+
         "category":"Rebajas" , 
         "title": "Blazer a cuadros vintage",
         "description": "Blazer a cuadros con diseño clásico vintage.",
@@ -161,7 +161,7 @@
         "DescripcionDetallada": "Blazer a cuadros vintage con un diseño clásico y sofisticado. Perfecto para un look elegante y profesional. Este blazer está confeccionado con una mezcla de lana y poliéster, lo que asegura comodidad y durabilidad. El diseño incluye un forro interior suave, bolsillos funcionales y botones en la parte frontal. El corte es entallado, ofreciendo un ajuste cómodo y favorecedor."
     },
     {
-        "id":17,
+
         "category":"MasBuscado" , 
         "title": "Camiseta de bandas retro",
         "description": "Camiseta con estampado de bandas icónicas de los años 80.",
@@ -171,7 +171,7 @@
         "DescripcionDetallada": "Camiseta con estampado de bandas icónicas de los años 80. Ideal para los amantes de la música y la moda retro. Esta camiseta está confeccionada con algodón 100%, lo que asegura una sensación suave y cómoda al llevarla puesta. El diseño incluye gráficos de alta calidad que representan a bandas legendarias, capturando el espíritu de la época. El corte es clásico, con un ajuste cómodo que no es ni demasiado ajustado ni demasiado holgado."
     },
     {
-        "id":18,
+
         "category":"Nuevo" , 
         "title": "Vestido de terciopelo",
         "description": "Vestido de terciopelo con diseño elegante y retro.",
@@ -181,7 +181,7 @@
         "DescripcionDetallada": "Vestido de terciopelo vintage con un diseño elegante y sofisticado. Perfecto para ocasiones especiales y eventos formales. Este vestido está confeccionado con terciopelo de alta calidad, lo que asegura una textura suave y lujosa. El diseño incluye detalles como un escote pronunciado, mangas largas y una falda que cae de manera fluida, creando una silueta favorecedora."
     },
     {
-        "id":19,
+
         "category":"Nuevo" , 
         "title": "Cinturón de cuero retro",
         "description": "Cinturón de cuero con hebilla clásica, ideal para un look vintage.",
@@ -191,7 +191,7 @@
         "DescripcionDetallada": "Cinturón de cuero con un diseño clásico y atemporal. Perfecto para complementar cualquier atuendo con un toque vintage. Este cinturón está confeccionado con cuero de alta calidad, lo que asegura su durabilidad y resistencia. La hebilla metálica clásica añade un toque de elegancia y funcionalidad."
     },
     {
-        "id":20,
+
         "category":"Rebajas" , 
         "title": "Zapatos oxford vintage",
         "description": "Zapatos oxford de cuero con diseño clásico y retro.",
